@@ -20,6 +20,7 @@
     flex-direction: column; 
     justify-content: space-evenly; 
     padding: 20px; 
+    border: 1px solid black;
 }
 
 
@@ -31,7 +32,7 @@ input{
     border-radius: 4px;
     margin-bottom: 15px;
     font-size: large;
-   
+    padding-left: 10px;
 }
 
 
@@ -40,15 +41,18 @@ button{
     border-radius: 4px;
     width: 100%;
     padding: 10px 20px; 
-    background-color: lightskyblue; 
+    background-color:  #318CE7; 
     color: white; 
     border: none;  
     height: 60px; /* adjust the height */ 
     font-size: large;
+    position: relative;
+    top: -30px; /* Adjust this value to your preference */
+    display: block; 
   } 
 
   button:hover{
-    background-color: lightgreen;
+    background-color: #2977c4;
   }
 
   .container h1{
@@ -56,11 +60,18 @@ button{
   }
 
   .registerLink{
-    margin-bottom: 10px;
-    text-decoration: none;
-    font-size: large;
+    position: relative;
+    top: -30px; /* Adjust this value to your preference */
+    display: block; 
+  
+  
   }
 
   body{
-    background-color: aqua;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/031/425/592/non_2x/aerial-view-of-petrochemical-industry-refinery-in-the-morning-background-energy-industrial-plant-oil-station-manufacturing-for-fuel-and-energy-furnace-factory-line-free-photo.jpeg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-attachment: fixed;
+  
   }
