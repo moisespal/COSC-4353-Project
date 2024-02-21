@@ -36,7 +36,6 @@ input{
 }
 
 
-
 button{ 
     border-radius: 4px;
     width: 100%;
@@ -47,7 +46,7 @@ button{
     height: 60px; /* adjust the height */ 
     font-size: large;
     position: relative;
-    top: -30px; /* Adjust this value to your preference */
+     /* Adjust this value to your preference */
     display: block; 
   } 
 
@@ -61,7 +60,7 @@ button{
 
   .registerLink{
     position: relative;
-    top: -30px; /* Adjust this value to your preference */
+    top: -20px; /* Adjust this value to your preference */
     display: block; 
   
   
@@ -83,3 +82,8 @@ button{
     color: red;
   }
   
+  #formLogin{
+    position: relative;
+    display: block;
+    top: -15px;
+  }
