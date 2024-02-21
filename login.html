@@ -6,7 +6,6 @@
     <title>Login form</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-
     <script src="logInScript.js"></script>
 </head>
 <body class="">
@@ -16,15 +15,17 @@
             <h3>SIGN IN</h3>
         </div>
         <div class="userInputs">
-            <div class="username">
-                <input type="text" id="username" placeholder=" Username" required>
+            <div >
+                <input type="text" id="username" placeholder=" Username" onclick="revert(this)" required>
+                <span id = errorMessage></span>
             </div>
-            <div class="password">
-                <input type="password" id="password" placeholder=" Password" required>
+            <div >
+                <input type="password" id="password" placeholder=" Password" onclick="revert(this)" required>
+                <span id = errorPassword></span>
             </div>
         </div>
         <a href="#" class="registerLink">Register</a>
-        <button type="submit" class="submit">Sign In</button>
+        <button type="submit" id="submitButton" onclick="validationCheck()">Sign In</button>
     </div>
 </body>
 </html>

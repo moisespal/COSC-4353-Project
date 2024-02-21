@@ -30,7 +30,7 @@ input{
     padding: 10px 20 px;
     border: 1px solid black;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: large;
     padding-left: 10px;
 }
@@ -75,3 +75,11 @@ button{
     background-attachment: fixed;
   
   }
+
+  #errorMessage,  #errorPassword{
+    position: relative;
+    top: -20px; /* Adjust this value to your preference */
+    display: block; 
+    color: red;
+  }
+  
