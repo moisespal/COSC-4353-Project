@@ -1,10 +1,9 @@
-.inputs {
+form {
   top: 50%; 
   left: 50%; 
   display:flex;
   position: absolute;
   flex-direction: column; 
-  justify-content: space-evenly; 
   transform: translate(-50%, -50%); 
   border-radius: 25px;
   background: #f2f2f2;
@@ -14,76 +13,72 @@
   padding: 20px;
   width: 350px;
   height: 500px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
-  
+  box-shadow: 0 10px 20px black;
 }
 
 input[type="text"], select {
-    width: 100%; 
-    padding: 10px; 
-    margin: 8px 0; 
-    display: inline-block; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  display: inline; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
 }
 
+input:hover {
+  transform: scale(1.01);
+}
 
-button{
+button {
   width: 100%;
   background-color: #c2fbd7;
   border-radius: 100px;
-  box-shadow: rgba(20, 139, 66, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
   color: green;
   cursor: pointer;
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
   transition: all 350ms;
-  border: 0;
+  border-color: forestgreen;
   font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   margin-top: 20px;
 }
 
 button:hover {
-  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
-  transform: scale(1.05);
+  background-color: #bbf0ce;
+  transition: background-color 0.4s;
+  transform: scale(1.01);
 }
 
-body{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/031/425/592/non_2x/aerial-view-of-petrochemical-industry-refinery-in-the-morning-background-energy-industrial-plant-oil-station-manufacturing-for-fuel-and-energy-furnace-factory-line-free-photo.jpeg) ;
-    background-repeat: no-repeat;
-    background-position:top;
-    background-size: cover;
-    background-attachment: fixed;
-    
-  }
+body {
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 input:hover {
-    border-color: gray;
+  border-color: rgb(64, 64, 64);
 }
 
 .profile-header {
-    background-color: #f2f2f2; /* Light grey background */
-    padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid #ccc; /* Light grey border for a subtle separation */
-    margin-bottom: 20px; /* Space between the header and the form */
-    margin-left: auto; /* Center the div on the page */
-    margin-right: auto; /* Center the div on the page */
-    border-radius: 25px; /* Rounded edges */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+  background-color: #f2f2f2; 
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc; 
+  margin-bottom: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 25px; 
+  box-shadow: 0 2px 3px black; 
 
 }
 
 .profile-header h2 {
-    margin: 0;
-    color: #333; /* Dark grey color for the text */
-    font-size: 20px; /* Size of the header text */
+  margin: 0;
+  color: #333; 
+  font-size: 20px; 
 }
 
 
