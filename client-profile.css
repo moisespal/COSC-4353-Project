@@ -13,7 +13,7 @@ form {
   padding: 20px;
   width: 350px;
   height: 500px;
-  box-shadow: 0 10px 20px black;
+  box-shadow: 0 10px 8px black;
 }
 
 input[type="text"], select {
