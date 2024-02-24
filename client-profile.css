@@ -1,0 +1,84 @@
+form {
+  top: 50%; 
+  left: 50%; 
+  display:flex;
+  position: absolute;
+  flex-direction: column; 
+  transform: translate(-50%, -50%); 
+  border-radius: 25px;
+  background: #f2f2f2;
+  background-position: left top;
+  background-repeat: repeat;
+  border: 1px solid #ccc; 
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0 10px 8px black;
+}
+
+input[type="text"], select {
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  display: inline; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+input:hover {
+  transform: scale(1.01);
+}
+
+button {
+  width: 100%;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 350ms;
+  border-color: forestgreen;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #bbf0ce;
+  transition: background-color 0.4s;
+  transform: scale(1.01);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input:hover {
+  border-color: rgb(64, 64, 64);
+}
+
+.profile-header {
+  background-color: #f2f2f2; 
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc; 
+  margin-bottom: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 25px; 
+  box-shadow: 0 2px 3px black; 
+
+}
+
+.profile-header h2 {
+  margin: 0;
+  color: #333; 
+  font-size: 20px; 
+}
+
+
