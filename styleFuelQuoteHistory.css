@@ -1,0 +1,52 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Roboto;
+} 
+
+.container {
+  width: 750px; 
+  height: 480px; 
+  background: #fff; 
+  box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7); 
+  position: absolute; 
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-evenly; 
+  padding: 20px; 
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse; /* This property ensures that adjacent cells share borders */
+  height: auto; 
+  position: relative;
+  top: -50px;
+  width: 700px; 
+  height: 250px; 
+  top:-60px;
+ 
+}
+
+th, td {
+  border: 1; /* Sets a solid black border around each cell */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left;
+/* Adjust text alignment as needed */
+}
+
+th{
+  width: 100px;
+}
+
+.text{
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
