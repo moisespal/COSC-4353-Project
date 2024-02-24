@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="client-profile.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-
     <script defer src="client-profile.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Client profile</title>
 </head>
 <body>
     <div class="base" style="font-family:verdana">
         <div class="bg.img"></div>
-        <form action="/submit-profile" method="POST">
+        <form id="profile-form" action="/submit-profile" method="POST">
             <div class="inputs">
                 <div class="base">
                     <div class="profile-header">
                         <h2 >Complete Profile</h2>
                 </div>
-                <input type="text" class="input-box" placeholder="Full Name" required><br>
-                <input type="text" class="input-box" placeholder="Primary Address 1 (Required)" required><br>
-                <input type="text" class="input-box" placeholder="Secondary Address 2 (Optional)"><br>
+                <input type="text" id="full-name" class="input-box" placeholder="Full Name" required><br>
+                <input type="text" id="address1" class="input-box" placeholder="Primary Address 1 (Required)" required><br>
+                <input type="text" id="address2" class="input-box" placeholder="Secondary Address 2 (Optional)"><br>
                 <select class="input-box" required>
                     <option value="">Select your State </option>
                     <option value="AL">Alabama</option>
@@ -75,9 +73,8 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select><br>
-                <input type="text" class="input-box" placeholder="City" required><br>
-                <input type="text" class="input-box" placeholder="ZIP" required><br>
-
+                <input type="text" id="city" class="input-box" placeholder="City" required><br>
+                <input type="text" id="zip" class="input-box" placeholder="ZIP" required><br>
                 <div class=button >
                     <button type="submit" style="font-family:verdana">Submit </button>
                 </div>
