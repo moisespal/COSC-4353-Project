@@ -1,4 +1,24 @@
-form {
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Roboto;
+} 
+
+body{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/031/425/592/non_2x/aerial-view-of-petrochemical-industry-refinery-in-the-morning-background-energy-industrial-plant-oil-station-manufacturing-for-fuel-and-energy-furnace-factory-line-free-photo.jpeg);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+
+
+
+.base{
   top: 50%; 
   left: 50%; 
   display:flex;
@@ -11,8 +31,8 @@ form {
   background-repeat: repeat;
   border: 1px solid #ccc; 
   padding: 20px;
-  width: 350px;
-  height: 500px;
+  width: 500px;
+  height: 700px;
   box-shadow: 0 10px 8px black;
 }
 
@@ -30,25 +50,23 @@ input:hover {
   transform: scale(1.01);
 }
 
-button {
-  width: 100%;
-  background-color: #c2fbd7;
-  border-radius: 100px;
-  color: green;
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 20px;
-  text-align: center;
-  transition: all 350ms;
-  border-color: forestgreen;
-  font-size: 16px;
-  margin-top: 20px;
-}
 
-button:hover {
-  background-color: #bbf0ce;
-  transition: background-color 0.4s;
-  transform: scale(1.01);
+button{ 
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 20px; 
+  background-color:  #318CE7; 
+  color: white; 
+  border: none;  
+  height: 60px; /* adjust the height */ 
+  font-size: large;
+  position: relative;
+   /* Adjust this value to your preference */
+  display: block; 
+} 
+
+button:hover{
+  background-color: #2977c4;
 }
 
 body {
