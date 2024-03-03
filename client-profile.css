@@ -22,56 +22,10 @@ body{
   transform: translate(-50%, -50%); 
   border-radius: 25px;
   background: rgba(250, 249, 246, 0.2); /* warm off white */
+  backdrop-filter: blur(10px);
   padding: 20px;
   width: 500px;
-  height: 700px;
-}
-
-input[type="text"], select {
-  width: 100%; 
-  padding: 10px; 
-  margin: 10px 0; 
-  display: inline; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  box-sizing: border-box; 
-}
-
-input:hover {
-  transform: scale(1.01);
-}
-
-
-button{ 
-  border-radius: 4px;
-  width: 100%;
-  padding: 10px 20px; 
-  background-color:  rgba(0, 123, 255, .9); 
-  color: white; 
-  border: none;  
-  height: 60px; 
-  font-size: large;
-  position: relative;
-  display: block; 
-  margin-top: 30px;
-} 
-
-button:hover{
-  background-color:rgb(0, 123, 255);
-}
-
-button:active{
-  transform: scale(0.95);
-}
-body {
-  background-repeat: no-repeat;
-  background-position:top;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-input:hover {
-  border-color: rgb(64, 64, 64);
+  height: 620px;
 }
 
 .profile-header {
@@ -88,4 +42,41 @@ input:hover {
   font-weight: 500;
 }
 
+input[type="text"], select {
+  width: 100%; 
+  padding: 10px; 
+  margin: 15px 0; 
+  display: inline;
+  background: rgba(255, 255, 255, 0.9); /* warm off white */ 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
 
+input:hover {
+  transform: scale(1.01);
+  border-color: rgb(64, 64, 64);
+}
+
+button{ 
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 20px; 
+  background-color:  rgba(0, 123, 255, .8);
+  backdrop-filter: blur(100px);
+  color: white; 
+  border: none;  
+  height: 60px; 
+  font-size: large;
+  position: relative;
+  display: block; 
+  margin-top: 30px;
+} 
+
+button:hover{
+  background-color:rgb(0, 123, 255);
+}
+
+button:active{
+  transform: scale(0.99);
+}
